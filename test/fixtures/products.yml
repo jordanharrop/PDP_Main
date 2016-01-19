@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sku: MyString
+  blem_sku: MyString
+  gender: MyString
+  market: MyString
+  comment: MyText
+  image_url: MyString
+  warranty: MyString
+  feature: MyString
+
+two:
+  sku: MyString
+  blem_sku: MyString
+  gender: MyString
+  market: MyString
+  comment: MyText
+  image_url: MyString
+  warranty: MyString
+  feature: MyString

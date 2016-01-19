@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Sku:</strong>
+  <%= @product.sku %>
+</p>
+
+<p>
+  <strong>Blem sku:</strong>
+  <%= @product.blem_sku %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @product.gender %>
+</p>
+
+<p>
+  <strong>Market:</strong>
+  <%= @product.market %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @product.comment %>
+</p>
+
+<p>
+  <strong>Image url:</strong>
+  <%= @product.image_url %>
+</p>
+
+<p>
+  <strong>Warranty:</strong>
+  <%= @product.warranty %>
+</p>
+
+<p>
+  <strong>Feature:</strong>
+  <%= @product.feature %>
+</p>
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>
